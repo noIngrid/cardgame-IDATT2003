@@ -1,2 +1,3 @@
-jar/App.class
-jar/Main.class
+components/App.class
+components/core/PlayingCard.class
+components/Main.class

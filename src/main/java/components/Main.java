@@ -1,4 +1,4 @@
-package jar;
+package components;
 
 import javafx.application.Application;
 import javafx.stage.Stage;

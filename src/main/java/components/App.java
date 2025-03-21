@@ -1,4 +1,4 @@
-package jar;
+package components;
 
 import java.util.Arrays;
 
