@@ -1,16 +1,17 @@
 package components.core;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Hand {
 
-  private final ArrayList<PlayingCard> dealtHand = new ArrayList<>();
+  private final List<PlayingCard> dealtHand;
 
-  public Hand(ArrayList<PlayingCard> hand) {
-    this.dealtHand.addAll(hand);
+  public Hand(List<PlayingCard> dealtHand) {
+    this.dealtHand = dealtHand;
   }
 
-  public ArrayList<PlayingCard> getDealtHand() {
+  public List<PlayingCard> getDealtHand() {
     return dealtHand;
   }
 
@@ -34,7 +35,7 @@ public class Hand {
 
   public boolean checkQueenOfSpades() {
     for (PlayingCard card : dealtHand) {
-      if (card.getAsString().equals("SQ")) {
+      if (card.getAsString().equals("S12")) {
         return true;
       }
     }
