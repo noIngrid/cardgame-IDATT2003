@@ -54,7 +54,7 @@
             </execution>
           </executions>
           <configuration>
-            <mainClass>components.App</mainClass>
+            <mainClass>components.Main</mainClass>
           </configuration>
         </plugin>
       </plugins>

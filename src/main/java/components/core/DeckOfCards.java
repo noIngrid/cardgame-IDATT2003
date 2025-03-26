@@ -19,6 +19,16 @@ public class DeckOfCards {
     }
   }
 
+  public void initializeDeck() {
+    cards.clear();
+    char[] suit = {'S', 'H', 'D', 'C'};
+    for (char s : suit) {
+      for (int i = 0; i < 13; i++) {
+        cards.add(new PlayingCard(s, i + 1));
+      }
+    }
+  }
+
   public List<PlayingCard> getCards() {
     return cards;
   }
