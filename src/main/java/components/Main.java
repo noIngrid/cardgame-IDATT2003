@@ -3,7 +3,11 @@ package components;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
-public class Main extends Application{
+public class Main extends Application {
+
+  public static void main(String[] args) {
+    launch(args);
+  }
 
   @Override
   public void start(Stage primaryStage) throws Exception {
@@ -11,7 +15,13 @@ public class Main extends Application{
     primaryStage.show();
   }
 
-  public static void main(String[] args) {
-    launch(args);
+  @Override
+  public void init() throws Exception {
+    super.init();
+  }
+
+  @Override
+  public void stop() throws Exception {
+    super.stop();
   }
 }
