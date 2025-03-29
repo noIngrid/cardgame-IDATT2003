@@ -1,6 +1,5 @@
 package components.core;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Hand {
@@ -51,5 +50,4 @@ public class Hand {
     }
     return true;
   }
-
 }
