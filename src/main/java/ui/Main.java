@@ -75,15 +75,4 @@ public class Main extends Application {
     queenOfSpadesLabel.setText("Queen of Spades: " + (hand.checkQueenOfSpades() ? "Yes" : "No"));
     heartsLabel.setText("Hearts in hand: " + hand.getHeartsAsString());
   }
-
-
-  @Override
-  public void init() throws Exception {
-    super.init();
-  }
-
-  @Override
-  public void stop() throws Exception {
-    super.stop();
-  }
 }
