@@ -1,3 +1,6 @@
-/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/components/Main.java
 /home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/components/core/DeckOfCards.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/components/core/Hand.java
 /home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/components/core/PlayingCard.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/ui/Card.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/ui/HandView.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/main/java/ui/Main.java
