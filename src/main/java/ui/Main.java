@@ -30,7 +30,13 @@ public class Main extends Application {
     root.setStyle("-fx-padding: 20; -fx-background-color: #f0f0f0;");
 
     Button dealButton = new Button("Deal cards");
-    dealButton.setOnAction(e -> dealHand());
+    dealButton.setOnAction(e -> {
+      try {
+        dealHand();
+      } catch (Exception ex) {
+        sumLabel.setText("Error dealing cards, reset deck and try again.");
+      }
+    });
 
     Button resetDeckButton = new Button("Reset Deck");
     resetDeckButton.setOnAction(e -> {

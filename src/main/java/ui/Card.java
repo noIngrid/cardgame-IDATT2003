@@ -32,7 +32,7 @@ public class Card {
     };
 
     char cardSuit = card.getSuit();
-    String suitImagePath = "/resources/" + cardSuit + ".png";
+    String suitImagePath = "/icons/" + cardSuit + ".png";
     Image suitImage = new Image(Card.class.getResourceAsStream(suitImagePath));
     ImageView suitImageView = new ImageView(suitImage);
     suitImageView.setFitHeight(30);
