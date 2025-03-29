@@ -32,7 +32,6 @@ public class PlayingCard {
     if (face < 1 || face > 13) {
       throw new IllegalArgumentException("Parameter face must be a number between 1 to 13");
     }
-
     this.suit = suit;
     this.face = face;
   }

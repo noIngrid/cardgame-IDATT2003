@@ -1,2 +1,4 @@
-components/core/PlayingCard.class
+components/core/Hand.class
 components/Main.class
+components/core/DeckOfCards.class
+components/core/PlayingCard.class
