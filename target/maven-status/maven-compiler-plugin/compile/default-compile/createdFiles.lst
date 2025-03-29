@@ -1,2 +1,6 @@
-jar/App.class
-jar/Main.class
+ui/Main.class
+components/core/DeckOfCards.class
+ui/HandView.class
+components/core/Hand.class
+components/core/PlayingCard.class
+ui/Card.class
