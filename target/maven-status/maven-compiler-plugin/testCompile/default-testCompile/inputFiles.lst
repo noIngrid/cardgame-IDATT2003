@@ -1,1 +1,4 @@
 /home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/test/java/components/TestApp.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/test/java/components/core/DeckOfCardsTest.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/test/java/components/core/HandTest.java
+/home/ingrid/Documents/V25/Prog 2/oeving5/cardGame/src/test/java/components/core/PlayingCardTest.java
